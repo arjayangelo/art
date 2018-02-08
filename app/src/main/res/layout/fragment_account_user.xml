@@ -1,0 +1,51 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marvinjason.art.AccountUserFragment">
+
+
+    <TextView
+        android:text="Account Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView6"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Check Out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkout_btn"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_marginBottom="60dp"
+        android:layout_alignBottom="@+id/logout_btn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout_btn"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="View Cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cart_btn"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/checkout_btn"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "611146781037",
+    "project_id": "augmented-retail"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611146781037:android:daaa7f43ffdbe865",
+        "android_client_info": {
+          "package_name": "com.example.marvinjason.art"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611146781037-tdm456kntgj5v5rjinmu9mq9kor36s4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marvinjason.art",
+            "certificate_hash": "D1189CD16CE4534770007C85F2D4813A586F9593"
+          }
+        },
+        {
+          "client_id": "611146781037-pgnl281urm79r7sc74ee2h7pv3piiekm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH4p4upfFFEfQUrF4ozAOHUNtMdd40dA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

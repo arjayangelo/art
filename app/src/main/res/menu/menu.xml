@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/action_add_cart"
+        android:icon="@mipmap/cart"
+        app:showAsAction="always"
+        android:title="Add to Cart" />
+
+    <item
+        android:id="@+id/action_sortalpha"
+        android:title="Sort Alphabetically" />
+    <item
+        android:id="@+id/action_sortloc"
+        android:title="Sort by Location" />
+    <item
+        android:id="@+id/action_sortpri"
+        android:title="Sort by Price" />
+    <item
+        android:id="@+id/action_sortar"
+        android:title="Sort with AR" />
+    <item
+        android:id="@+id/action_sortpriloc"
+        android:title="Sort by Price and Location" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Log Out" />
+</menu>

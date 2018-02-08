@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marvinjason.art.LoginActivity">
+
+    <ImageView
+        app:srcCompat="@drawable/default_avatar"
+        android:layout_marginTop="29dp"
+        android:id="@+id/imageView2"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Log In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin_activityLogin"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:elevation="0dp"
+        android:textColor="?android:attr/textColorTertiary"
+        android:layout_below="@+id/et_activityLoginPass"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="or "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/btnLogin_activityLogin"
+        android:layout_centerHorizontal="true" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="26dp"
+        android:id="@+id/et_activityLoginEmail"
+        android:hint="user@email.com"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true">
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="23dp"
+        android:id="@+id/et_activityLoginPass"
+        android:hint="********"
+        android:layout_below="@+id/et_activityLoginEmail"
+        android:layout_alignStart="@+id/et_activityLoginEmail" />
+</RelativeLayout>
